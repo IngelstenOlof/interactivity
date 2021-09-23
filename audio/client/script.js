@@ -2,10 +2,10 @@ import {Remote} from "https://unpkg.com/@clinth/remote@latest/dist/index.mjs";
 import {getMinMaxAvg} from '../util.js';
 
 const r = new Remote({
-  ourId: 'ktppacj8ei13avongx8'
+  useSockets: true,
   // If you're running your sketch locally and connecting to 
   // a Glitch-hosted processor:
-  // url: 'wss://your-project.glitch.me/ws'
+  url: 'https://olofmodule2.glitch.me/'
 });
 
 // When data is received from the Remote, do something with it...
